@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+body {
+	text-align: center;
+	background-color: black;
+	color: hsl(145, 61%, 80%);
+	font-family:  "Lucida Console", Monaco, monospace;
+}
+#eek {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	background-color: rgb(90, 255, 0);
+	border-radius: 10px;
+}
+#headerChange {
+	color: #00fff9902550;	
+	font-family:  "Lucida Console", Monaco, monospace;
+}
+button {
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50px;
+	border-width: 5px;
+	background-color: black;
+	padding: 30px 30px;
+	color: rgb(90, 255, 0);	
+	font-family:  "Lucida Console", Monaco, monospace;
+	font-size: 10px;
+}

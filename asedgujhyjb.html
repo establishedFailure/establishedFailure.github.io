@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<button onclick = "drawGraphMyGuy()">KEK</button><br>
+<canvas id="myCanvas" width="1000" height="1000"
+style="border:5px solid #d3d3d3;">
+</canvas>
+
+<script>
+
+function drawGraphMyGuy()
+{
+	var a = 5;
+	var b = 0;
+	var c = 0;
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
+	ctx.moveTo(0, 0);
+	for(var x = 0; x < 500; x++)
+	{
+		ctx.lineTo(x*0.1, (0.1)*(a*(x*x)+b*x+c));
+		ctx.stroke();		
+	}
+}
+
+</script>
+</body>
+</html>

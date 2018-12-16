@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>something</title>
+</head>
+<body>
+<h1>Temperature Converter - Fahrenheit to Celsius</h1>
+<br>
+<button onclick = "functionTemp()">Prompt</button>
+<p id = "temp"></p>
+ 
+ <script>
+ function functionTemp()
+ {
+	 var fahr = prompt("Input temperature in fahrenheit", 0);
+	 if (fahr != null)
+	 {
+		 x = (fahr - 32)*(5/9);
+		 document.getElementById("temp").innerHTML = x;		 
+	 }
+ }
+ 
+ 
+ </script>
+
+</body>
+</html>

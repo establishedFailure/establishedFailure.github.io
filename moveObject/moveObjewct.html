@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Object Mover</title>
+		<script src = "objectMover.js"></script>
+		<link rel = "stylesheet" href = "eere.css"></link>
+	</head>
+	<body onload = 'update()' onkeydown = 'getKey(event)'>
+		<h1>Key using: </h1><h2 id = "headerChange">NONE</h2>
+		<button onmousedown = "movementButton(1)">UP</button><br>
+		<button onmousedown = "movementButton(2)">LEFT</button>
+		<button onmousedown = "movementButton(3)">DOWN</button>
+		<button onmousedown = "movementButton(4)">RIGHT</button><br>
+		<button onmousedown = "movementButton(5)">REAPPEAR</button>
+		<button onmousedown = "movementButton(6)">DISAPPEAR</button><br>
+		<br><div id = "eek"></div>
+	</body>
+</html>

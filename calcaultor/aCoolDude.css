@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	background-color: white;
+	font-family:  "Lucida Console", Monaco, monospace;
+	font-size: 40px;
+}
+
+input {
+
+	border-color: white;
+	background-color: white;
+	padding: 30px 30px;	
+	font-family:  "Lucida Console", Monaco, monospace;
+	font-size: 40px;
+}
+
+button {
+	border-color: white;
+	background-color: white;
+	padding: 15px 15px;	
+	font-family:  "Lucida Console", Monaco, monospace;
+	font-size: 35px;
+}

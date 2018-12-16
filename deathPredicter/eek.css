@@ -1,0 +1,21 @@
+h1 {
+	letter-spacing: 10px;	
+}
+body {
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		text-align: center;
+		background-color: black;
+		color: hsl(168, 100%, 81%); <!-- cyanish-->
+}
+strong {
+		color: red;
+}
+select {
+		font-family: "Courier New", Courier, monospace;
+		border: none;
+}
+button {
+		font-family: "Arial Black", Gadget, sans-serif;
+		background-color: hsl(165, 100%, 80%); <!-- cyanish but darker -->
+		padding: 25px 50px;
+}
