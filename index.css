@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+header {
+	background-color: black;
+	padding: 5px 3px;
+	text-align: left;
+	
+}
+body {
+	color: white;
+	background-attachment: fixed;	
+	text-align: center;
+	font-family:  "Lucida Console", Monaco, monospace;
+	font-size: 30px;	
+}
