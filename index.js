@@ -20,6 +20,6 @@ function textInfation(object, mode)
 	}
 	if(mode == 1) //de expand
 	{
-		object.style.fontSize = "50px";		
+		object.style.fontSize = "80px";		
 	}
 }
